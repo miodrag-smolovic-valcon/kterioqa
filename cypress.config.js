@@ -11,9 +11,11 @@ module.exports = defineConfig({
   },
 
   env: {
-    // 'host' : 'https://xena.aks-staging.kter.io/',
-    'host' : 'https://xena.aks-dev.kter.io/',
-    'api_server' : 'https://callisto.aks-dev.kter.io/',
+    //'host' : 'https://xena.aks-staging.kter.io/',
+    //'host' : 'https://xena.aks-dev.kter.io/',
+    'host' : 'https://xena.aks-qa.kter.io/',
+    //'api_server' : 'https://callisto.aks-dev.kter.io/',
+    'api_server' : 'https://callisto.aks-qa.kter.io/',
     'testUserEmail' : 'kterioadmin@kterio.com',
     'testUserPass' : 'Temp1234!'
   },
